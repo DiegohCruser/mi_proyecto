@@ -5,16 +5,36 @@
 
 /* pagina principal */
 
-#index {
-    background-image: url("../img/fondo4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100%;
-    flex-direction: column;
-    display: flex;
+.fondo {
+    min-height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
         
 }
 
+.fondo::before {
+    content: "";
+    background-image: url(../img/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.35;
+}
+
+.contenedorCarrusel {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 body{
     font-family: sans-serif;
