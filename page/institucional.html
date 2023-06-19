@@ -20,34 +20,83 @@
 </head>
 <body>
     
-    <header id="header">
-        <div id="logo">
+<header id="header">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
+
             <a href="../index.html">
                 <img src="../img/logofaba.png">
-        </a>
-        </div>
-       
-        <nav class="menu">
-            <ul>
-                <li><a href="../page/institucional.html">Institucional</a> </li>
-                <li><a href="../page/sectoresfaba.html">Sectores de FABA</a> </li>
-                <li><a href="../page/consulta-afiliados-ioma.html">Consultas Afiliados de IOMA</a> </li>
-                <li><a href="../page/interes.html">Interes</a> 
-                    <ul><!-- submenu -->
-                        <li><a href="#">SACT Biblioteca</a></li>
-                        <li><a href="#">Ultimas Noticias</a></li>
-                    </ul>
-                </li>
+            </a>
+      
+            <button 
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            class="navbar-toggler"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+      
+            </button>
+      
+          <div class="collapse navbar-collapse" 
+          id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a href="../page/institucional.html" class="nav-link active">
+                    Institucional
+                  </a>
+              </li>
+              <li class="nav-item active">
+                <a href="../page/sectoresfaba.html" class="nav-link ">
+                  Sectores de FABA
+                </a>
                 
-                <li><a href="../page/contactos.html">Contactos</a></li>
-            </ul>
-            
-        </nav>
+            </li>
+            <li class="nav-item active">
+              <a href="../page/consulta-afiliados-ioma.html" class="nav-link">
+                Consultas Afiliados de IOMA
+              </a>
+          </li>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="../page/interes.html" class="nav-link 
+          dropdown-toggle"
+          id="navbarDropdown" role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          >
+          
+            Interes
+          </a>
+          <ul class="dropdown-menu" 
+          aria-labelledby="navbarDropdown">
+            <li> <a href="#" class="dropdown-item">SACT Biblioteca</a></li>
+            <li> <a href="#" class="dropdown-item">Ultimas Noticias</a></li>
+      
+          </ul>
+        </li>
+      </li>
+      <li class="nav-item active">
+        <a href="../page/contactos.html" class="nav-link">
+          Contactos
+        </a>
+      </li>
+      
+          </ul>
+      
+          </div>
+      
+      
+          </nav>
         
-    </header>
-        
+</header>
+       
+
+<div class="contenedor1">
     
-    
+    <main>   
     <h1 class="titulos">Quienes Somos</h1>
     <p class="textos">La Federación Bioquímica de la provincia de Buenos Aires es una Entidad Civil sin fines de lucro y tiene como objeto lograr el constante progreso de la profesión bioquímica en sus aspectos éticos, científicos, técnicos y económicos, para servir de la mejor forma posible a los individuos y a la sociedad.</p>
 
@@ -108,6 +157,8 @@
         Periódico mensual "FABA – INFORMA".<br><br>
         Normas de Obras Sociales.</p>
 
+   </main>        
+</div>
         <footer class="bg-light text-dark pt5 pb4">
 
             <div class="container text-center text-md-start">

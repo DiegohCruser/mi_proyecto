@@ -85,11 +85,15 @@ ul li:hover ul {
     top: 30px;
 }
 
+.textoNoticias {
+
+    text-align: justify;
+    padding: 10px;
+}
 
 
 
 
-/* pies de pagina */
 
 
 i {
@@ -98,14 +102,20 @@ i {
 
 /*pagina institucional*/
 
+.contenedor1{
+    padding-top: 75px;
+}
+
 .titulos {
     font-family: 'Lobster', cursive;
     color: blue;
+    text-align: center;
 }
 
 
 .textos {
     font-family: 'Libre Baskerville', serif;
+    text-align: center;
     
 }
 
@@ -122,3 +132,8 @@ i {
     margin: 15px;
 }
 
+/*pagina sectores faba*/
+
+.contenedorDocumentos {
+    text-align: center;
+}
